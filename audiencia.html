@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>Dashboard</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700|Roboto:300,400,500" rel="stylesheet">
+	<link rel="stylesheet" href="css/fontello.css">
+	<link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+	<div class="container-fluid">
+		<div class="row">
+			<div class="barra-lateral col-12 col-sm-auto">
+				<div class="logo">
+					<h2>Reporte Anual 2020</h2>
+				</div>
+				<nav class="menu d-flex d-sm-block justify-content-center flex-wrap">
+					<a href="index.html"><i class="icon-home"></i><span>Inicio</span></a>
+					<a href="#"><i class="icon-users"></i><span>Audiencia</span></a>
+					<a href="votos.html"><i class="icon-address-card-o"></i><span>Redes</span></a>
+					<a href="redes.html"><i class="icon-address-card-o"></i><span>Gastos</span></a>
+					<a href="index.html"><i class="icon-login"></i><span>Salir</span></a>
+				</nav>
+			</div>
+
+			<main class="main col">
+				<div class="row">
+					<div class="columna col-lg-7">
+						<div class="widget nueva_entrada">
+							<h3 class="titulo">Audiencia 2020</h3>
+							<form action="">
+								<div class="card" >
+									<div class="card-body">
+									  <p class="card-text">En este dashboard puedes ver un mapa con la cantidad de personas que nos ven en redes y que nos buscan por Google, con la numeralia y gráficos que nos desmenucen la información.</p>
+									</div>
+								  </div> <br>
+								<div class="">
+									<iframe class="mapa" src="./Mapas_Finales/qgis2web_2020_11_20-18_23_43_879876/index.html" frameborder="1" width="100%" height="500" ></iframe>
+								</div>
+							</form>
+						</div>
+					</div>
+
+					<div class="columna col-lg-5">
+						<div class="widget estadisticas">
+							<h3 class="titulo">Numeralia</h3>
+							<div class="contenedor d-flex flex-wrap">
+								<div class="caja">
+									<h3>22</h3>
+									<p>Paises</p>
+								</div>
+								<div class="caja">
+									<h3>74,168</h3>
+									<p>Audiencia en Redes</p>
+								</div>
+								<div class="caja">
+									<h3>36,083</h3>
+									<p>Usuarios Página Web</p>
+								</div>
+								<div class="caja">
+									<h3>1768</h3>
+									<p>Personas recolectadas CDMX</p>
+								</div>
+								<div class="caja">
+									<h3>47</h3>
+									<p>Inscritos CDMX</p>
+								</div>
+							</div>
+						</div>
+
+						<div class="widget comentarios">
+							<h3 class="titulo">Forma de contacto</h3>
+							<div class="contenedor">
+								<div class="comentario d-flex flex-wrap">
+									<div class="foto">
+										<iframe title="Personas recolectadas" aria-label="chart" id="datawrapper-chart-1Y2Hr" src="https://datawrapper.dwcdn.net/1Y2Hr/1/" scrolling="no" frameborder="0" style="border: none;" width="350" height="587"></iframe>
+									</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</main>
+		</div>
+	</div>
+
+	<!-- Usar la CDN requiere acceso a Internet -->
+	<!-- <script src="https://code.jquery.com/jquery-3.2.1.min.js"></script> -->
+
+
+	<script src="js/jquery-3.2.1.min.js"></script>
+	<script src="js/popper.min.js"></script>
+	<script src="js/bootstrap.min.js"></script>
+</body>
+</html>

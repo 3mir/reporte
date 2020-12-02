@@ -1,0 +1,8 @@
+@charset "UTF-8";
+
+ 
+.icon-home:before { content: '\2302'; } /* '⌂' */
+.icon-login:before { content: '\e740'; } /* '' */
+.icon-dollar:before { content: '\f155'; } /* '' */
+.icon-address-card-o:before { content: '\f2bc'; } /* '' */
+.icon-users:before { content: '👥'; } /* '\1f465' */
